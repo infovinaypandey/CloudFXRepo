@@ -1,0 +1,24 @@
+package praticesJava;
+
+public class BiggestNumber {
+	public static void getBiggestNumber() {
+		int a[] = { 100, 5, 20, 5, 555, 3, 60, 55, 99, 1099 };
+
+		int BiggestNumber = 0;
+
+		for (int i = 1; i < a.length; i++) {
+
+			if (a[i] < BiggestNumber) {
+				BiggestNumber = a[i];
+			}
+		}
+
+		System.out.println(BiggestNumber);
+
+	}
+
+	public static void main(String[] args) {
+		getBiggestNumber();
+	}
+
+}

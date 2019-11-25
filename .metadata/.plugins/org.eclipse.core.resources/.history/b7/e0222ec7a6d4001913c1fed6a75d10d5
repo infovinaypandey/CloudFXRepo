@@ -1,0 +1,13 @@
+package practice;
+
+public class BiggestNumber {
+
+	public void getBiggestNumber() {
+		int a[] = { 14, 5, 8, 20, 8 };
+
+		for (int i = 0; i > a.length; i++) {
+			
+		}
+	}
+
+}

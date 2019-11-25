@@ -1,0 +1,12 @@
+package praticesJava;
+
+public class BiggestNumber {
+	int a[] = {5,20,5,3,60,55};
+	
+	int BiggestNumber = 0;
+	
+	for() {
+		
+	}
+	
+}
